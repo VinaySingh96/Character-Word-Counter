@@ -1,9 +1,13 @@
 import './App.css';
+import Navbar from './Navbar';
+import Textbox from './Textbox';
 
 function App() {
   return (
-    <h3>HELLO WORLD</h3>
-    
+    <>
+    <Navbar title='Character & Word Counter'/>
+    <Textbox/>
+    </>
   );
 }
 
